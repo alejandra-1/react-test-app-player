@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: "#151515"; }
+  body #main-container {
+    background: #151515; }
+  body #body-container {
+    display: flex; 
+    background: #151515; }
+  body .container-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    body .container-item .item {
+      display: flex; }
